@@ -10,6 +10,7 @@ $(document).ready(function(){
     } else {
         alert('You messed up!');
     }
+    
 });
     
 })
