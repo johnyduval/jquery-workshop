@@ -1,1 +1,70 @@
 /* Write your code here */
+* {
+    box-sizing: border-box;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay p {
+    color: white;
+    font-weight: bold;
+}
+
+.overlay img {
+    margin-bottom: 10px;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+
+
+/* --------------------------------------------------------- */
+
+ul {
+   list-style: none;
+}
+
+ul li {
+   margin: 0;
+   padding: 0.5em;
+}
+
+ul li img {
+   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+   ul li {
+       float: left;
+       width: 50%;
+   }
+}
+
+@media screen and (min-width: 960px) {
+   ul li {
+       width: 25%;
+   }
+}
